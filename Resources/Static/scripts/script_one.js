@@ -6,6 +6,7 @@ function validateForm() {
 	let password = document.getElementById("password").value;
 	let cPassword = document.getElementById("cPassword").value;
 	
+	
 	if(name==""){
 		alert("Please enter username");
 		return false;
@@ -33,6 +34,20 @@ function validateForm() {
 		return false;
 	}
 	document.write("Thank you for signing up!")
+}
+function validateLogin(){
+	let name = document.getElementById("name2").value;
+	let password = document.getElementById("password2").value;
+	
+	if(name==""){
+		alert("Please enter username");
+		return false;
+	}
+	if(password==""){
+		alert("Please enter password");
+		return false;
+	}
+	location.href = 'Landing.html'
 }
 function validateEmail() {
 	let eID = document.getElementById("emailID").value;
