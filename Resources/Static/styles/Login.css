@@ -1,17 +1,31 @@
 @charset "ISO-8859-1";
+body{
+	background-image: url('https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=1600');
+	
+	display: grid;
+    place-items: center;
+}
 #register{
-
 	float:left; 
-
-	background:gray; 
-
-	border: 1;
+	padding: 30px 50px 30px 50px;
+	
 }
 #login{
-
-	float:left; 
-	 
-	background:gray; 
+	float:left;  
+	padding: 30px 50px 30px 50px;
 	
+}
+#login form{
+	background-color: white;
+	place-items: center;
+	padding: 10px 20px 10px 20px;
+	border: solid;
+	border: 1;
+}
+#register form{
+	background-color: white;
+	place-items: center;
+	padding: 20px 20px 20px 20px;
+	border: solid;
 	border: 1;
 }

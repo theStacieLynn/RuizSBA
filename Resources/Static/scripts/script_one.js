@@ -32,7 +32,7 @@ function validateForm() {
 		alert("Passowrds do not match");
 		return false;
 	}
-	
+	document.write("Thank you for signing up!")
 }
 function validateEmail() {
 	let eID = document.getElementById("emailID").value;
@@ -52,7 +52,8 @@ function addData(){
 	 printContactInfo(contactDetails);
  }
  function printContactInfo(p){
-	 for(var o in p)
+	 document.write("Thank you we will contact you shortly <br>")
+	 for(let o in p)
 	 document.write(o+": "+p[o]+"<br>");
  }
 
