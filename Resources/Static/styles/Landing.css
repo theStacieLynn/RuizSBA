@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+body{
+	background-image: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1600');
+}
+h1{
+	display: grid;
+    place-items: center;
+    color: #80ffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+#navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #80ffff; 
+  display: grid;
+  place-items: center;
+}
+
+#navBar a{
+	display: block;
+  	padding: 8px;
+  	color: black;
+  	float: left;
+  	font-family: Arial, Helvetica, sans-serif;
+
+}
+table{
+	background-color: #80ffff;
+	display: grid;
+    place-items: center;
+}

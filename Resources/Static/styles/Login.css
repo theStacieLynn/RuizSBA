@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+#register{
+
+	float:left; 
+
+	background:gray; 
+
+	border: 1;
+}
+#login{
+
+	float:left; 
+	 
+	background:gray; 
+	
+	border: 1;
+}

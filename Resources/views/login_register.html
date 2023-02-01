@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign Up</title>
+<script type="text/javascript" src="../static/scripts/script_one.js"></script>
+<link rel="stylesheet" type="text/css" href="../static/styles/Login.css">
+</head>
+<body>
+
+<div id ="register">
+<form onsubmit="validateForm()">
+			<h1>Sign Up</h1>
+			<p>Enter account information:</p>
+			
+			<table cellspacing="1" cellpadding="1" border="1">
+				<tr>
+					<td><input type="text" id="name"
+						placeholder="Username" /></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="EMail" value="" id="emailID"
+						placeholder="Enter Email" /></td>
+				</tr>
+				<tr>
+					<td><input type="password" name="Password" value=""
+						id="password" placeholder="Password" /></td>
+				</tr>
+				<tr>
+					<td><input type="password" name="confirmPassword"
+						id="cPassword" placeholder="Confirm Password" /></td>
+				</tr>
+			</table>
+			<input type="checkbox" id="terms" name="terms" value="agree">
+			<label for="terms"> I agree to the <b>Terms of Use</b></label><br> 
+			<input type="submit" value="Submit" />
+			</form>
+		</div>
+		
+		
+		<div id ="login">
+		<form onsubmit="validateForm()">
+			<h1>Login</h1>
+			<p>Login using social media</p>
+			<img src="https://mythicreign.com/images/fbloginimage.png" width="100px" height="25px">
+			<img src="https://s3-us-west-2.amazonaws.com/drustatic/img/twitter-login.png" width="100px" height="25px">
+			<p>Or insert account information</p>
+			<table cellspacing="1" cellpadding="1" border="1">
+				<tr>
+					<td><input type="text" id="name" placeholder="Username" /></td>
+				</tr>
+				<tr>
+					<td><input type="password" name="password" value=""
+						id="password" placeholder="Password" /></td>
+				</tr>
+			</table>
+			<input type="checkbox" id="stayLoggedIn" name="stay" value="agree">
+			<label for="stay">Stay logged in	</label><br> 
+			<input type="submit" value="Submit" />
+			</form>
+		</div>
+	
+</body>
+</html>
